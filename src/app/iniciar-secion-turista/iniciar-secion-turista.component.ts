@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./iniciar-secion-turista.component.css']
 })
 export class IniciarSecionTuristaComponent {
+// Componente Padre
+mostrarComponente = false;
+
+registrar() {
+  this.mostrarComponente = !this.mostrarComponente;
+}
 
 }
