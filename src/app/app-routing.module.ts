@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioTuristaComponent } from './componentes/inicio-turista/inicio-turista.component';
+import { RegistrarTuristaComponent } from './componentes/registrar-turista/registrar-turista.component';
+import { IniciarSecionTuristaComponent } from './componentes/iniciar-secion-turista/iniciar-secion-turista.component';
 
 const routes: Routes = [
-  {path: 'inicio-sesion',component: InicioTuristaComponent}
+  {path: '', redirectTo: '/inicio-turista', pathMatch: 'full'},
+  {path: 'inicio-turista',component: InicioTuristaComponent},
+  {path: 'registrar-turista',component: RegistrarTuristaComponent},
+  {path: 'iniciar-secion-turista',component: IniciarSecionTuristaComponent}
 ];
 
 @NgModule({

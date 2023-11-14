@@ -75,7 +75,6 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -85,7 +84,6 @@ body {
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -105,7 +103,6 @@ body {
   height: 32rem;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -114,11 +111,12 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
-
+/* rtl:end:ignore */
 
 /* Featurettes
 ------------------------- */
@@ -128,6 +126,12 @@ body {
 }
 
 /* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+/* rtl:end:remove */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -150,3 +154,4 @@ body {
     margin-top: 7rem;
   }
 }
+
