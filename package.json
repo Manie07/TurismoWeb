@@ -24,6 +24,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",
     "jquery.js": "^0.0.2-security",
+    "ngx-bootstrap": "^11.0.2",
     "node": "^21.1.0",
     "packages": "^0.0.8",
     "popper": "^1.0.1",
