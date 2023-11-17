@@ -1,0 +1,76 @@
+.modal-header{
+    background-color: rgb(255,255,255);
+    background: linear-gradient(177deg, rgba(255,255,255,1) 5%, rgba(212,175,55,0.95) 56%);;
+    height: 50px;
+    
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre-apellido{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nombre{
+width: 50%;
+}
+
+#apellido{
+width: 50%;
+}
+
+#numero-pais{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#numero{
+width: 50%;
+}
+
+#pais{
+width: 50%;
+}
+
+.titulo{
+    padding-left: 42%;
+    padding-top: 15px;
+    font-size: small;
+}
+
+::placeholder{
+    font-size: medium;
+}
+
+.bienvenido{
+    font-size: large;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
+
+#btn-registrar{
+    background-color:  rgb(255,255,255);
+    background: linear-gradient(177deg, rgba(255,255,255,1) 5%, rgba(212,175,55,0.95) 56%);;
+    width: 100%;
+    margin-top: 20px;
+    color:black ;
+    border-color: black;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+.registrar{
+    border: none;
+    background-color: white;
+
+
+}
