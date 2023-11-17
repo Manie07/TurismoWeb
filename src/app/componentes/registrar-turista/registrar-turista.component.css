@@ -40,7 +40,11 @@ width: 50%;
 .titulo{
     padding-left: 42%;
     padding-top: 15px;
+<<<<<<< HEAD
     font-size: medium;
+=======
+    font-size: small;
+>>>>>>> main
 }
 
 ::placeholder{
