@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-inicio-turista',
-  templateUrl: './inicio-turista.component.html',
-  styleUrls: ['./inicio-turista.component.css'],
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css'],
 })
 export class InicioTuristaComponent {
   scrollToTop(event: Event) {
