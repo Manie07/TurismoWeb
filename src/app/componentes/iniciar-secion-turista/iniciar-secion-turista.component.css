@@ -6,15 +6,9 @@
 }
 
 .titulo{
-<<<<<<< HEAD
     padding-left: 29%;
     padding-top: 15px;
     font-size: medium;
-=======
-    padding-left: 32%;
-    padding-top: 15px;
-    font-size: small;
->>>>>>> main
 }
 
 ::placeholder{
