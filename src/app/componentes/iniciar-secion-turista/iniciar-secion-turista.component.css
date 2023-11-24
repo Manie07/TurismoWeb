@@ -5,7 +5,7 @@
     
 }
 
-.titulo{
+.exampleModalLabel{
     padding-left: 29%;
     padding-top: 15px;
     font-size: medium;
@@ -37,9 +37,11 @@
     font-size: small;
 }
 
-.registrar{
+#registrar{
     border: none;
     background-color: white;
+    font-size: small;
+    color: black;
 
 
 }

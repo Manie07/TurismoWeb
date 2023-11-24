@@ -11,6 +11,10 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { IniciarSesionGuiaComponent } from './componentes/iniciar-sesion-guia/iniciar-sesion-guia.component';
+import { IniciarSesionEstablecimientoComponent } from './componentes/iniciar-sesion-establecimiento/iniciar-sesion-establecimiento.component';
+import { RegistrarEstablecimientoComponent } from './componentes/registrar-establecimiento/registrar-establecimiento.component';
+import { RegistrarGuiaComponent } from './componentes/registrar-guia/registrar-guia.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
     InicioTuristaComponent,
     IniciarSecionTuristaComponent,
     RegistrarTuristaComponent,
-    NavbarComponent
+    NavbarComponent,
+    IniciarSesionGuiaComponent,
+    IniciarSesionEstablecimientoComponent,
+    RegistrarEstablecimientoComponent,
+    RegistrarGuiaComponent
   ],
   imports: [
     BrowserModule,

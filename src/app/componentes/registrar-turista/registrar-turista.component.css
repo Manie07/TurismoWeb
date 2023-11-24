@@ -66,11 +66,12 @@ width: 50%;
 .modal-footer{
     display: flex;
     justify-content: center;
-    font-size: small;
+    
 }
-.registrar{
+#registrar{
     border: none;
     background-color: white;
-
+    color: black;
+    font-size: small;
 
 }
