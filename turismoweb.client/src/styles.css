@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer {
+  margin-top: 30px;
+  height: 90vh;
+  width: 30%;
+  border: 2px solid #333;
+  display: flex;
+  border: 2px solid black;
+}
+
+.header {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.x {
+  display: flex;
+  height: 3vh;
+  width: 140px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  height: 3vh;
+}
+
+.p1 {
+  margin-top: 5%;
+}
+
+.btn-cerrar {
+  background: none;
+  border: none;
+}
+

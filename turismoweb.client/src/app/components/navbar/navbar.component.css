@@ -1,0 +1,30 @@
+.iniciar-sesion {
+  margin-top: 15px;
+}
+
+#navbar {
+  width: 100%;
+}
+
+
+#imghome {
+  width: 250px;
+}
+
+#login {
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-color: rgba(212,175,55,0.95);
+}
+
+#navbarSupportedContent {
+  padding-left: 200px;
+}
+
+#lista {
+  padding-left: 20px;
+  padding-right: 20px;
+}
