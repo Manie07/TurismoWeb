@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { MainComponent } from './components/main/main.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -18,7 +19,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     MainComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
