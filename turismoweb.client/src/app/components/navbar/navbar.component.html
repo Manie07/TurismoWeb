@@ -1,7 +1,9 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
   <div class="container-fluid">
     <div class="navbar-brand">
-      <img id="imghome" src="assets/turismoweb.png" alt="" />
+      <button id="main" routerLink="main">
+        <img id="imghome" src="assets/turismoweb.png" alt="" />
+      </button>
     </div>
 
     <button class="navbar-toggler"
@@ -33,7 +35,7 @@
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal2"
-                (click)="login()">
+                routerLink="main/login">
           <i class="fa-solid fa-user"></i>
         </button>
       </div>
