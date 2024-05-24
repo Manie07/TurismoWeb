@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
+  constructor(
+    private router: Router
+  ) { }
 
+  ngOnInit(): void {
+
+  }
+
+  registroturista() {
+    this.router.navigate(['main/registroturista']);
+  }
 }
