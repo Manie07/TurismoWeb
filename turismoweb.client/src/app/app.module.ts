@@ -14,6 +14,8 @@ import { SitiosturisticosComponent } from './components/sitiosturisticos/sitiost
 import { RegistroturistaComponent } from './components/registroturista/registroturista.component';
 import { RegistroestablecimientoComponent } from './components/registroestablecimiento/registroestablecimiento.component';
 import { RegistroguiaComponent } from './components/registroguia/registroguia.component';
+import { GuiaturistaComponent } from './components/guiaturista/guiaturista.component';
+import { EstablecimientoComponent } from './components/establecimiento/establecimiento.component';
 
 
 
@@ -28,7 +30,9 @@ import { RegistroguiaComponent } from './components/registroguia/registroguia.co
     SitiosturisticosComponent,
     RegistroturistaComponent,
     RegistroestablecimientoComponent,
-    RegistroguiaComponent
+    RegistroguiaComponent,
+    GuiaturistaComponent,
+    EstablecimientoComponent
   ],
   imports: [
     BrowserModule,
