@@ -18,4 +18,12 @@ export class MainComponent {
   registroturista() {
     this.router.navigate(['main/registroturista']);
   }
+
+  registroguia() {
+    this.router.navigate(['main/registroguia']);
+  }
+
+  registroestablecimiento() {
+    this.router.navigate(['main/registroestablecimiento']);
+  }
 }
