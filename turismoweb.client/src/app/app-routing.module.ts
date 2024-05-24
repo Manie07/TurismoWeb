@@ -6,6 +6,7 @@ import { SitiosturisticosComponent } from './components/sitiosturisticos/sitiost
 import { RegistroturistaComponent } from './components/registroturista/registroturista.component';
 import { RegistroguiaComponent } from './components/registroguia/registroguia.component';
 import { RegistroestablecimientoComponent } from './components/registroestablecimiento/registroestablecimiento.component';
+import { GuiaturistaComponent } from './components/guiaturista/guiaturista.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'main/registroturista', component: RegistroturistaComponent },
   { path: 'main/registroguia', component: RegistroguiaComponent },
   { path: 'main/registroestablecimiento', component: RegistroestablecimientoComponent },
+  { path: 'main/guiaturista', component: GuiaturistaComponent }
 ];
 
 @NgModule({
