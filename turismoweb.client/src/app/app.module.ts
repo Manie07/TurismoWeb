@@ -10,6 +10,10 @@ import { MainComponent } from './components/main/main.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
+import { SitiosturisticosComponent } from './components/sitiosturisticos/sitiosturisticos.component';
+import { RegistroturistaComponent } from './components/registroturista/registroturista.component';
+import { RegistroestablecimientoComponent } from './components/registroestablecimiento/registroestablecimiento.component';
+import { RegistroguiaComponent } from './components/registroguia/registroguia.component';
 
 
 
@@ -20,7 +24,11 @@ import { LoginComponent } from './components/login/login.component';
     MainComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    SitiosturisticosComponent,
+    RegistroturistaComponent,
+    RegistroestablecimientoComponent,
+    RegistroguiaComponent
   ],
   imports: [
     BrowserModule,
