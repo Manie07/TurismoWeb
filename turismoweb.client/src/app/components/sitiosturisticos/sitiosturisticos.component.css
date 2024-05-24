@@ -75,3 +75,52 @@
     flex: 1;
   }
 }
+
+#imgPrin {
+  height: 600px;
+  background-image: url('../../../assets/cartagena.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgS {
+  height: 600px;
+  background-image: url('../../../assets/muralla.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgD {
+  height: 600px;
+  background-image: url('../../../assets/islarosario.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgF {
+  height: 600px;
+  background-image: url('../../../assets/getsemani.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgG {
+  height: 600px;
+  background-image: url('../../../assets/bovedas.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgH {
+  height: 600px;
+  background-image: url('../../../assets/playabocagrande.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#imgJ {
+  height: 600px;
+  background-image: url('../../../assets/museo.jpg');
+  background-size: cover;
+  background-position: center;
+}
