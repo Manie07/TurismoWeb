@@ -1,15 +1,22 @@
-﻿namespace TurismoWeb.Server.Entities
+﻿using System;
+using System.Collections.Generic;
+using TurismoWeb.Server.Entities;
+
+namespace TurismoWeb.Server.Data;
+
+public partial class Usuario
 {
-    public class Usuario
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        public required string Name { get; set; }
+    public string? Usuario1 { get; set; }
 
-        public string PrimerNombre { get; set; } = string.Empty;
+    public string? Contrasena { get; set; }
 
-        public string Apellido { get; set;} = string.Empty;
+    public string? Tipo { get; set; }
 
-        public string Lugar { get; set; } = string.Empty;
-    }
+    public virtual ICollection<Establecimiento> Establecimientos { get; set; } = new List<Establecimiento>();
+
+    public virtual ICollection<Guiasturista> Guiasturista { get; set; } = new List<Guiasturista>();
+
+    public virtual ICollection<Turista> Turista { get; set; } = new List<Turista>();
 }
